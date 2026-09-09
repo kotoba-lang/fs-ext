@@ -5,7 +5,7 @@
          :git/sha "73bdb13ae7a3d004b44bca08be03a3191157a38f"}
         io.github.kotoba-lang/fs-basename
         {:git/url "https://github.com/kotoba-lang/fs-basename.git"
-         :git/sha "80d5fbf17730410d12446ce95ecb84dc1630b606"}}
+         :git/sha "a9784a91077c7533fdc1791da5d7924fcb3c7cfe"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner

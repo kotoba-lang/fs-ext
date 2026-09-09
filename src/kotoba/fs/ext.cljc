@@ -6,7 +6,9 @@
   definitions it reaches -- nothing else.
 "
   (:require [kotoba.lang.text :as str]
-            [kotoba.fs.basename :refer [basename]]))
+            [kotoba.fs.basename :refer [basename]])
+  #?(:clj  (:require [kotoba.lang.text :as str])
+     :cljs (:require [kotoba.lang.text :as str])))
 
 (defn ext
   "Return a path's extension (without the dot), or nil if none. The basename's
